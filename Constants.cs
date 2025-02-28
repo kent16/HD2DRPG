@@ -17,44 +17,7 @@ public static class Constants
     {
         
     }
-    // public static class Position
-    // {
-    //     // 味方初期配置座標
-    //     public static readonly List<Vector3> INIT_ALLIES = new List<Vector3>{new Vector3(-4.3f, 0.0f, -1.0f),
-    //                                                                          new Vector3(-3.8f, 0.0f, -0.3f),
-    //                                                                          new Vector3(-5.5f, 0.0f, -0.7f),
-    //                                                                          new Vector3(-5.0f, 0.0f, -0.1f)};
-    //     // 味方配置座標
-    //     public static readonly List<Vector3> ALLIES = new List<Vector3>{new Vector3(-1.0f, 0.0f, -0.5f),
-    //                                                                     new Vector3(-0.6f, 0.0f,  0.5f),
-    //                                                                     new Vector3(-2.2f, 0.0f, -0.5f),
-    //                                                                     new Vector3(-2.0f, 0.0f,  0.5f)};
-    //     // 敵配置座標
-    //     public static readonly List<Vector3> ENEMIES = new List<Vector3>{new Vector3(1.0f, 0.0f, -0.5f),
-    //                                                                      new Vector3(0.6f, 0.0f,  0.5f),
-    //                                                                      new Vector3(2.2f, 0.0f, -0.5f),
-    //                                                                      new Vector3(2.0f, 0.0f,  0.5f)};
-    // }
-    public static class UIPosition
-    {
-        // // 味方ステータス表示座標
-        // public static readonly List<Vector3> ALLY_STATUSES = new List<Vector3>{new Vector3(-290, 70, 0),
-        //                                                                        new Vector3(-150, 150, 0),
-        //                                                                        new Vector3(-570, 70, 0),
-        //                                                                        new Vector3(-420, 150, 0)};
-        // // 敵ステータス表示座標
-        // public static readonly List<Vector3> ENEMY_STATUSES = new List<Vector3>{new Vector3(300, -190, 0),
-        //                                                                         new Vector3(150, -55, 0),
-        //                                                                         new Vector3(570, -160, 0),
-        //                                                                         new Vector3(420, -45, 0)};
-        // // スキルメニュー表示座標
-        // public static readonly List<Vector3> SKILL_MENUS = new List<Vector3>{new Vector3(-150, -100, 0),
-        //                                                                      new Vector3(-20, -20, 0),
-        //                                                                      new Vector3(-430, -100, 0),
-        //                                                                      new Vector3(-280, -20, 0)};
-        // バトル進捗表示座標
-        public static readonly Vector3 BATTLE_PROGRESS = new Vector3(0, 150, 0);
-    }
+    
     public static class Rotation
     {
         // バトル初期クォータニオン

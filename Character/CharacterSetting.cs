@@ -6,15 +6,25 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "CharacterSetting", menuName="CreateCharacterSetting")]
 public class CharacterSetting : ScriptableObject
 {
+    // キャラクター名
     [SerializeField] private string characterName;
+    // キャラクタータイプ
     [SerializeField] private CharacterType type;
+    // キャラクターアイコン
     [SerializeField] private Sprite icon;
+    // HP
     [SerializeField] private int hp;
+    // MP
     [SerializeField] private int mp;
+    // 攻撃力
     [SerializeField] private int atk;
+    // 防御力
     [SerializeField] private int def;
+    // 行動速度
     [SerializeField] private int spd;
+    // 獲得経験値
     [SerializeField] private int exp;
+    // 使用スキル
     [SerializeField] private SkillDB skillDB;
     
     public string CharacterName{get{return characterName;}}
